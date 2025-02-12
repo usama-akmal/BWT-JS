@@ -11,3 +11,4 @@
 
 # Assignments
 - [10/02/2025](/assignments/loops.md)
+- [12/02/2025](/assignments/arrays.md)
