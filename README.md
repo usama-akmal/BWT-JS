@@ -12,3 +12,4 @@
 # Assignments
 - [10/02/2025](/assignments/loops.md)
 - [12/02/2025](/assignments/arrays.md)
+- [19/02/2025](/assignments/string,%20functions,%202d%20array.md)
