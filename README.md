@@ -8,8 +8,10 @@
 - [29/01/2025](/class-2.html)
 - [03/02/2025](/class-3.html)
 - [10/02/2025](/class-4.html)
+- [26/02/2025](/class-9.html)
 
 # Assignments
 - [10/02/2025](/assignments/loops.md)
 - [12/02/2025](/assignments/arrays.md)
 - [19/02/2025](/assignments/string,%20functions,%202d%20array.md)
+- [26/02/2025](/assignments/dom-manipulation.md)

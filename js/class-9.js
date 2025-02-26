@@ -65,5 +65,57 @@ function encodeDecodeMessage(message) {
     return encodedMessage.join("");
 }
 
-console.log(encodeDecodeMessage("My name is Usama Akmal"));
-console.log(encodeDecodeMessage("Mr ngmd ks Lsgmg Gimgu"));
+// console.log(encodeDecodeMessage("My name is Usama Akmal"));
+// console.log(encodeDecodeMessage("Mr ngmd ks Lsgmg Gimgu"));
+
+// # Dom Manipulation
+function changeStyle() {
+    const p = document.getElementById("text");
+    p.style.color = "green";
+    p.style.backgroundColor = "lightgrey";
+    p.style.fontSize = "18px";
+    // p.textContent = "<b>Style Changed!</b>"
+    p.innerHTML = "<b>Style Changed!</b>"
+
+    const qp = document.querySelector("body > p:nth-child(2)");
+    qp.style.color = "blue";
+    console.log(qp);
+
+    const heading = document.createElement("h1");
+    const textNode = document.createTextNode(new Date().toDateString());
+    heading.appendChild(textNode);
+    document.body.appendChild(heading);
+}
+
+// p.className = "ABC";
+
+// const currentDataAndTime = new Date();
+// console.log(currentDataAndTime);
+
+// const dateOfBirth = new Date(1996, 9, 4);
+// console.log(dateOfBirth);
+
+// console.log(dateOfBirth.getDay())
+
+// console.log(dateOfBirth.toLocaleString('en-IN'));
+
+
+// console.log("Timeout setup start");
+// setTimeout(() => {
+//     console.log("Timeout triggerd");
+// }, 1000 * 2);
+// console.log("Timeout setup completed");
+
+console.log("Interval setup start");
+let intervalCount = 0;
+const intervalId = setInterval(() => {
+    console.log("Interval triggerd");
+    intervalCount++;
+    if(intervalCount == 10){
+        clearInterval(intervalId);
+        console.log("Interval clreared");
+    }
+    const counter = document.getElementById("counter");
+    counter.textContent = intervalCount;
+}, 1000 * 2);
+console.log("Interval setup completed");
