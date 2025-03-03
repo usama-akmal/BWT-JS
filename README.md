@@ -13,6 +13,7 @@
 - [19/02/2025](/class-7.html)
 - [24/02/2025](/class-8.html)
 - [26/02/2025](/class-9.html)
+- [03/03/2025](/class-10.html)
 
 # Assignments
 - [10/02/2025](/assignments/loops.md)
