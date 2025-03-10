@@ -15,9 +15,11 @@
 - [26/02/2025](/class-9.html)
 - [03/03/2025](/class-10.html)
 - [05/03/2025](/class-11.html)
+- [10/03/2025](/class-12.html)
 
 # Assignments
 - [10/02/2025](/assignments/loops.md)
 - [12/02/2025](/assignments/arrays.md)
 - [19/02/2025](/assignments/string,%20functions,%202d%20array.md)
 - [26/02/2025](/assignments/dom-manipulation.md)
+- [10/03/2025](/assignments/fetch-json_server.md)
