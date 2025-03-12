@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Usama",
+      "city": "Karachi"
+    },
+    {
+      "id": "2",
+      "name": "Bilala",
+      "city": "Karachi"
+    },
+    {
+      "id": "dc23",
+      "name": "Huzaifa",
+      "city": "Karachi"
+    },
+    {
+      "id": "293a",
+      "name": "Faiq",
+      "city": "Lahore"
+    },
+    {
+      "id": "1802",
+      "name": "Usman Ali",
+      "city": "Quetta"
+    }
+  ]
+}
